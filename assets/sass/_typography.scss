@@ -1,0 +1,55 @@
+.content {
+  margin-top: 80px;
+  padding-bottom: 200px;
+}
+
+.content p {
+  width: 900px;
+  margin: 30px auto;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.content h2 {
+  width: 900px;
+  margin: 30px auto;
+  text-align: justify;
+  font-size: 36px;
+  line-height: 30px;
+}
+
+.page-title {
+  height: 40%; 
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-family: montserrat;
+  font-size: 90px;
+  color: white;
+  @media screen and (max-width: $break-large) {
+    font-weight: 400;
+  }
+  // font-weight: 600;
+}
+
+h2 {
+  text-align: center; 
+}
+
+h1 {
+  padding: 100px 0 0;
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.logo {
+  font-style: none;
+  text-decoration: none;
+}

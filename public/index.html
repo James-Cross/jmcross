@@ -1,0 +1,140 @@
+<!doctype html>
+<html class="no-js" lang="en-GB" xmlns:fb="http://ogp.me/ns/fb#"><head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Gabija Montvydaitė" />
+  <meta property="og:url" content="/" />
+  <meta property="og:description" content="Personal website and blog for Gabija Montvydaite"/>
+  <meta property="og:type" content="website" />
+  <title>Gabija Montvydaitė</title>
+
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/sass/main.min.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script type="text/javascript">
+    $(window).on('scroll', function() {
+        if($(window).scrollTop()) {
+            $('nav').addClass('black');
+        }
+        else {
+            $('nav').removeClass('black');
+        }
+    })
+  </script>
+</head><body>
+<header>
+  <nav>
+    <a href="/" class="logo">LOGO</a>
+    <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="/#contact-scroll">Contact</a></li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
+  <script type="text/javascript">
+    const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-links');
+
+    burger.addEventListener('click', () => {
+      nav.classList.toggle('nav-active');
+      });
+    }
+
+  navSlide();
+  </script>
+
+</header>
+
+
+
+
+
+<section class="sec1"><h1 class="page-title">Gabija Montvydait&#279.</h1></section>     
+
+
+<section class="container">
+  <h2>Not quite sure what will be here</h2>
+  
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</p>
+</section>
+
+<section class="home_cards">
+  <a href="#" class="card">
+    <img src="//unsplash.it/500/500" alt="" class="card__img">
+    <div class="card__text">
+        <h3 class="card__title">About</h3>
+        <p class="card__body">And here is some text</p>
+    </div>
+  </a>
+  <a href="#" class="card">
+    <img src="//unsplash.it/500/501" alt="" class="card__img">
+    <div class="card__text">
+        <h3 class="card__title">Blog</h3>
+        <p class="card__body">And here is some text</p>
+    </div>
+  </a>
+  <a href="#" class="card">
+    <img src="//unsplash.it/501/500" alt="" class="card__img">
+    <div class="card__text">
+        <h3 class="card__title">Something else</h3>
+        <p class="card__body">And here is some text</p>
+    </div>
+  </a>
+</section>
+<h1>Contact me</h1>
+<p>Have a question about something you've seen? Why don't you ask?</p>
+
+<div class="contact-container">
+  <form action="mailto:gabi test email" class="contact-form">
+    <div class="form-item">
+      <input type="text" class="form-input" placeholder="first name" aria-label="first name">
+    </div>
+    <div class="form-item">
+      <input type="email" class="form-input" placeholder="email address" aria-label="email address">
+    </div>
+    <div class="form-item">
+      <textarea name="comment" class="form-input" placeholder="message" aria-label="message"></textarea>
+    </div>
+    <button class="form-button" type="submit">Submit</button>
+    <div id="contact-scroll"></div>
+  </form>
+</div>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+<div class="footer">
+  <h1>this is a footer where social media icons will be</h1>
+</div>
+
+
+
+</body>
+</html>

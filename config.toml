@@ -1,0 +1,6 @@
+baseURL = "/"
+languageCode = "en-gb"
+title = "J M Cross"
+disableKinds = ["RSS", "taxonomyTerm"]
+[blackfriday]
+   hrefTargetBlank = true
