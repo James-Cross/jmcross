@@ -10,6 +10,22 @@
     z-index: -1;
 }
 
+.title {
+    position: absolute;
+    top: 200px;
+    font-family: raleway;
+    font-size: 62px;
+    font-weight: 200;
+    color: white;
+}
+
+.tag {
+    position: absolute;
+    top: 280px;
+    color: white;
+    font-family: raleway;
+}
+
 .skateboard-pic {
     background: url(/assets/skateboard.jpg);
     height: 50vh;
@@ -19,4 +35,11 @@
 .image-box {
     border-style: solid;
     border-width: 10px 0 0 0;
+}
+
+@media (max-width: 400px) {
+    .title {
+        font-size: 40px;
+        top: 230px;
+    }
 }
