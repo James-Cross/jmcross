@@ -26,15 +26,17 @@
     font-family: raleway;
 }
 
-.skateboard-pic {
-    background: url(/assets/skateboard.jpg);
-    height: 50vh;
-    width: 100vw;
-}
-
 .image-box {
-    border-style: solid;
-    border-width: 10px 0 0 0;
+    background: black;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    p {
+        padding: 50px;
+        color: white;
+        font-family: raleway;
+    }
 }
 
 @media (max-width: 450px) {
@@ -42,4 +44,14 @@
         font-size: 40px;
         top: 230px;
     }
+}
+
+.skateboard {
+    height: 400px;
+    background-attachment: fixed;
+}
+
+.zuiki {
+    height: 400px;
+    transform: rotate(90deg)
 }
