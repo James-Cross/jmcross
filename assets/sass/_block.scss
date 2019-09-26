@@ -1,0 +1,22 @@
+.intro-banner {
+    height: 50vh;
+    background: url(/assets/bg13.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: -1;
+}
+
+.skateboard-pic {
+    background: url(/assets/skateboard.jpg);
+    height: 50vh;
+    width: 100vw;
+}
+
+.image-box {
+    border-style: solid;
+    border-width: 10px 0 0 0;
+}
